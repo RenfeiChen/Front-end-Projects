@@ -1,0 +1,1 @@
+This is a color game which helps you get familiar with the RGB parameter in the html. It will show an RGB parameter at the top of the webpage and you will win if the click the correct one which has the same color as the RGB shows. 
