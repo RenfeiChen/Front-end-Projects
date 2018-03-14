@@ -1,0 +1,1 @@
+This is a game with some awesome sounds. You can hit any key inclduing "A" to "Z", and each of it will randomly show on the webpage with different color and sounds. So enjoy yourself.
