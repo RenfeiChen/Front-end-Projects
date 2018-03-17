@@ -1,4 +1,4 @@
-h1 {
+.index {
 	background-color: #2980b9;
 	color: white;
 	margin: 0;
@@ -19,10 +19,18 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 li:nth-child(2n) {
-	background-color: #f7f7f7;
+	background-color: #f9f9f9;
+}
+
+li:hover {
+	background-color: #ddd;
 }
 
 body{
@@ -33,7 +41,7 @@ body{
 }
 
 #container {
-	width: 360px;
+	width: 760px;
 	margin: 100px auto;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
 	background-color: #f7f7f7;
@@ -42,6 +50,7 @@ body{
 .completed {
 	color: gray;
 	text-decoration: line-through;
+	background-color: #f7f7f7;
 }
 
 span {
@@ -64,11 +73,18 @@ li:hover span{
 input {
 	font-size: 18px;
 	background-color: #f7f7f7;
-	width: 100%;
+	width: 84%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
 	color: #2980b9;
 	border: 3px rgba(0,0,0, 0.1);
+}
+
+#addBtn {
+	padding: 13px 13px 13px 13px;
+	width: 15%;
+	font-family: Roboto;
+	border: 0;
 }
 
 input:focus {
@@ -77,7 +93,13 @@ input:focus {
 	outline: none;
 }
 
+.fa-minus {
+	float: right;
+}
+
 .fa-plus {
 	float: right;
 }
+
+
 

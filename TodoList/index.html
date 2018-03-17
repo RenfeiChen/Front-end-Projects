@@ -5,18 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/todo.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 <div id="container">
-	<h1> To-Do List  <i class = "fa fa-plus"></i></h1>
-	<input type="text" placeholder="Add New Todo">
-
+	<h1 class = "index"> To-Do List  <i class = "fa fa-minus"></i></h1>
+	<div class = "inputLine">
+		<input type="text" placeholder="Add New Todo">
+		<button type="button" class="btn btn-outline-primary" id="addBtn">Add</button>
+	</div>
 	<ul>
 		<li><span><i class="fa fa-trash"></i></span> 123</li>
 		<li><span><i class="fa fa-trash"></i></span> 456</li>
 		<li><span><i class="fa fa-trash"></i></span> 789</li>
 	</ul>
+	
 <script type="text/javascript" src="assets/js/todo.js"></script>
 </body>
 </html>
