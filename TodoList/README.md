@@ -1,1 +1,3 @@
 This is an application to help you prepare something you should do. Type in the place which shows the "Add New Todo", then press the "Enter" and the words will show at the bottom of the lists. And there are two ways to mark something that you have done, the first is to click it and it wll not disappear, just a line will get through it. So if you just misclick it, you can click it again and it will back to the normal. The second way is to hover your mouse on it and there will be a trash icon on the left, click it and it will disappear. The plus icon on the right is to hide the place where is to type.
+
+https://github.com/RenfeiChen/Front-end-Projects/raw/master/TodoList/show.png
